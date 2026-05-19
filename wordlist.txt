@@ -1,5 +1,0 @@
-admin
-123456
-password
-msfadmin
-123123
