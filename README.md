@@ -198,7 +198,7 @@ Usuários válidos identificados com senha fraca.
 ![FTP Login](images/03-ftp-login.png)
 
 ### DVWA
-![DVWA](images/04-dvwa.png)
+![DVWA](images/04-dvwa-login.png)
 
 ### Configuração DVWA
 ![DVWA Security](images/05-dvwa-security.png)
