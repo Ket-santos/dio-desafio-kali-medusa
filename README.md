@@ -188,18 +188,31 @@ Usuários válidos identificados com senha fraca.
 
 ## Evidências
 
-Adicionar na pasta `/images`:
+### Identificação do Alvo (IP)
+![IP](images/01-ip-metasploitable.png)
 
-* Ataque FTP
-* Acesso DVWA
-* Resultado Medusa
-* Enumeração SMB
+### Ataque FTP
+![FTP](images/02-ftp-attack.png)
+
+### Login FTP
+![FTP Login](images/03-ftp-login.png)
+
+### DVWA
+![DVWA](images/04-dvwa.png)
+
+### Configuração DVWA
+![DVWA Security](images/05-dvwa-security.png)
+
+### Enumeração SMB
+![SMB](images/06-smb-enum.png)
+
+### Password Spraying
+![SMB Attack](images/07-smb-attack.png)
 
 
 ## Conclusão
 
 Foi possível identificar falhas críticas em autenticação, reforçando a importância de boas práticas de segurança.
-
 
 ##  Aviso
 Projeto educacional. Não utilizar em ambientes reais sem autorização.
